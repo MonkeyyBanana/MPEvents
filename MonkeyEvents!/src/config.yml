@@ -1,0 +1,13 @@
+helpMessage:
+  Admin:
+    - "&l&e---------<&6 Monkey Event Help&e >---------"
+    - ""
+    - "/event &eOpen Up The Events GUI"
+    - "/event next &eStarts Next Round"
+    - "/event reload &eReload Preset Files And Config"
+    - "/event end &eEnd Event"
+  Player:
+    - "&l&e---------<&6 Monkey Event Help&e >---------"
+    - ""
+    - "/event join &eJoin Event"
+    - "/event &eJoin Event"

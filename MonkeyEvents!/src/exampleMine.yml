@@ -1,0 +1,59 @@
+#DONT EDIT ON THIS AS THIS WILL RESET EVERY TIME!
+
+settings:
+  tpLocation:
+    world: world
+    warp: 'warp test %player%'
+  #WORLD GUARD REGION
+  regionForMine: 'test'
+  playerJoinMessage: "&l&eMEvent >> &f%player%&e Has Joined The Event!"
+
+#Available Modules
+# BROADCAST, BROADCASTALL, TITLE, COMMANDS, CONSOLE, BREAKABLE
+# SEE BELOW TO SEE HOW TO USE
+# YOU MAY ADD MORE 'round' INCREMENTALY 
+round0:
+  - 'BROADCASTALL &6&lMining Event Is Now Open! /event join'
+  - 'COMMANDS /pos1 162,67,-78'
+  - 'COMMANDS /pos2 190,93,-63'
+  - 'DELAY 1000'
+  - 'COMMANDS /set 30%diamond_ore,30%emerald_ore,30%gold_ore,10%emerald_block'
+round1:
+  - 'BROADCAST &6&lMINING EVENT IS STARTING IN 10 SECONDS!'
+  - 'DELAY 5000'
+  - 'BROADCAST &4&lStarting In 5..'
+  - 'TITLE &l&e5'
+  - 'DELAY 1000'
+  - 'BROADCAST &4&lStarting In 4..'
+  - 'TITLE &l&e4'
+  - 'DELAY 1000'
+  - 'BROADCAST &4&lStarting In 3..'
+  - 'TITLE &l&e3'
+  - 'DELAY 1000'
+  - 'BROADCAST &4&lStarting In 2..'
+  - 'TITLE &l&e2'
+  - 'DELAY 1000'
+  - 'BROADCAST &4&lStarting In 1!'
+  - 'TITLE &l&e1'
+  - 'DELAY 1000'
+  - 'BREAKABLE YES'
+  - 'DELAY 6000'
+  - 'BROADCAST &6&lMINING EVENT ENDING IN 5..'
+  - 'TITLE &l&e5'
+  - 'DELAY 1000'
+  - 'BROADCAST &6&lMINING EVENT ENDING IN 4..'
+  - 'TITLE &l&e4'
+  - 'DELAY 1000'
+  - 'BROADCAST &6&lMINING EVENT ENDING IN 3..'
+  - 'TITLE &l&e3'
+  - 'DELAY 1000'
+  - 'BROADCAST &6&lMINING EVENT ENDING IN 2..'
+  - 'TITLE &l&e2'
+  - 'DELAY 1000'
+  - 'BROADCAST &6&lMINING EVENT ENDING IN 1..'
+  - 'TITLE &l&e1'
+  - 'DELAY 1000'
+  - 'BREAKABLE NO'
+  - 'CONSOLE kill %eplayer%'
+round2:
+round3:

@@ -1,0 +1,18 @@
+name: MonkeyEvents
+author: KingMonkeyy
+version: 1.16.4
+main: com.stinkymonkey.events.main
+depend: [WorldGuard]
+api-version: 1.13
+
+commands:
+  event:
+    description: main command
+
+permissions:
+  MonkeyEvent.event:
+    default: true
+    description: Event Users
+  MonkeyEvent.admin:
+    default: op
+    description: admin abuse

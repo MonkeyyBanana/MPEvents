@@ -1,0 +1,42 @@
+#DONT EDIT ON THIS FILE THIS EXAMPLE CONFIG WILL RESET EVERY RESTART!
+
+settings:
+  # THIS IS A COMMAND!!!! ex: warp monkey %player%
+  warp: "warp lol %player%"
+  world: "world"
+  # REGION OF THE CAPTURE ZONE AKA HILL
+  Location1:
+    x: 174
+    y: 95
+    z: -72
+  Location2:
+    x: 180
+    y: 98
+    z: -66
+  # AMOUNT OF SECONDS TO WIN PER PLAYER
+  timeToWin: 5
+  # TIME LIMIT IN SECONDS
+  timeLimit: 30
+  # JOIN MESSAGE
+  playerJoinMessage: "%player% &3Has Joined The Event!"
+  playerWinMessage: "&l%player% &cHas Won &4KOTH"
+  fireworkWin: true
+  scoreboard:
+    Title: "&l&4K&cO&4T&cH"
+    scores:
+      - "&f=-=-=-=-=-=-=-=-=-=-=-=-=-="
+      - " "
+      - "&4Contester: &f%cplayer%"
+      - "&cTime: &f%ctime% &cSeconds"
+      - " "
+      - "&4Leader: &f%lplayer%"
+      - "&cTime: &f%ltime% &cSeconds"
+      - " "
+      - "&4Time Left: &c%timeleft% &4Seconds"
+      - "&cTime To Win:&f %twin% &cSeconds"
+      - " "
+      - "&f=-=-=-=-=-=-=-=-=-=-=-=-=-="
+round0:
+  - "BROADCASTALL NOOB HAHAHAH"
+round1:
+  - "RUN KOTH"
